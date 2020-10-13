@@ -8,6 +8,7 @@
 - [Table of Content](#table-of-content)
   - [Objectives](#objectives)
   - [About](#about)
+  - [How to use](#how-to-use)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
       - [Arrays](#arrays)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
@@ -45,6 +46,10 @@
 ## About
 
 An array is an ordered collection of related data and are organized by index. Indexing begins at 0 (e.g.,first element in an array has an index of 0, the second has an index of 1, and so on). JavaScript arrays are used to store multiple values in a single variable. It is useful if you have a list of items like a list of cars or people for example.
+
+## How to use
+
+This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
 ### Instructor Explains/Demonstrates
 
