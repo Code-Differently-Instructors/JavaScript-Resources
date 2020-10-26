@@ -76,10 +76,10 @@ let answer = function (x, y) {
   let sum = x + y;
   return sum;
 };
-alert(answer(5, 10)); // 0utputs: 15
+alert(answer(5, 10)); // 0utput: 15
 
 let total = answer(7, 25);
-alert(total); // 0utputs: 32
+alert(total); // 0utput: 32
 ```
 
 #### Variable Scope
