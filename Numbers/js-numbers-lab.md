@@ -1,4 +1,4 @@
-<img  src="../../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px;">
+<img  src="../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px;padding-bottom: 2em;">
 
 ## JavaScript Numbers Drill
 
@@ -6,17 +6,15 @@
 
 - You will need to make a new repository.
 - Create new file called `Prompts.JS`
-- Copy and paste prompts from lab into new file.
+- Create a new HTML file and link JS files.
 - Make sure to number the prompts you are answering in order to identify what is being answered.
-- Complete the prompts below.
 
-**Make a commit after each prompt you complete.**
 
-### The Tasks
+#### The Tasks
 
 Using arithmetic operations and `Math` object and its methods, code statements to print the result to the terminal.
 
-1. Prompt a user twice to input a number between 1 and 9. Store their response in variables.
+1. Prompt a user twice to input a number. Store their response in variables.
 
    > Remember, their responses will be in the form of a string.
 
@@ -57,7 +55,9 @@ Using arithmetic operations and `Math` object and its methods, code statements t
 
 12. Stage, commit, and push up your changes. Let Git be on your team.
 
-13. Using `Math.pow` return the value of the one variable to the power of the other
+13. Prompt a user twice to input a number. Store their response in variables.Using `Math.pow` return the value of the one variable to the power of the other. Display the result. 
+
+   > Ex: The result is 16. 2 to the 4th power. 
 
 14. Stage, commit, and push up your changes. Let Git be on your team.
 
