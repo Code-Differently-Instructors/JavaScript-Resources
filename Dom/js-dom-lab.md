@@ -1,4 +1,4 @@
-<img  src="../../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px;">
+<img  src="../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px;">
 
 
 

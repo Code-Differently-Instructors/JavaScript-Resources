@@ -1,6 +1,6 @@
 <img  src="../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px;padding-bottom: 2em;">
 
-## JavaScript Numbers Drill
+## JavaScript Numbers Lab
 
 ### The Set Up
 
