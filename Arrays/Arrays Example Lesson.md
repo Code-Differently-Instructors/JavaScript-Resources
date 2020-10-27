@@ -26,10 +26,10 @@
       - [Arrays Contain Any Data Type](#arrays-contain-any-data-type)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
-    - [Array Methods](#array-methods)
+      - [Array Methods](#array-methods)
       - [Add Elements To An Array](#add-elements-to-an-array)
       - [Removing Elements From An Array](#removing-elements-from-an-array)
-    - [Spread Operator](#spread-operator)
+      - [Spread Operator](#spread-operator)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
   - [Next Steps](#next-steps)
 
@@ -207,7 +207,7 @@ Create an array that contains 3 objects and print its value to the console. Also
 
 ### Instructor Explains/Demonstrates
 
-### Array Methods
+#### Array Methods
 
 There are a lot of useful methods that come with JavaScript we can use to inspect and modify arrays. I will list some below along with some examples, I challenge you to investigate the rest.
 
@@ -323,7 +323,7 @@ console.log(animals);
 Output: ["cat", "reptile", "fish", "bird", "bear", "tiger", "lion"];
 ```
 
-### Spread Operator
+#### Spread Operator
 
 The spread operator `...` allows an expression to be expanded into multiple elements allowing for separating an array into individual elements, or items as well as combining/copying arrays.
 

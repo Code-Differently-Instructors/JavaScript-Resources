@@ -21,7 +21,7 @@
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
       - [Comparison and Logical Operators](#comparison-and-logical-operators)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
-    - [Conditional Statements](#conditional-statements)
+      - [Conditional Statements](#conditional-statements)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
   - [Next Steps](#next-steps)
 
@@ -118,7 +118,7 @@ Comparison and Logical operators are used to test for true or false.
 
 ### Instructor Explains/Demonstrates
 
-### Conditional Statements
+#### Conditional Statements
 
 Conditional statements are used to perform different actions based on different conditions. Very often when you write code, you want to perform different actions for various decisions. You can use conditional statements in your code to do this. In JavaScript we have the following conditional statements:
 

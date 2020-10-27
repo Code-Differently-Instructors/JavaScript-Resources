@@ -9,17 +9,31 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [Instructor Notes](#instructor-notes)
-    - [Numbers](#numbers)
+  - [Instructor Notes](#instructor-notes)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+      - [Example with regular number:](#example-with-regular-number)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+      - [Example with decimal:](#example-with-decimal)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-1)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+      - [Example of `NAN`:](#example-of-nan)
+      - [Example of `typeof`:](#example-of-typeof)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-2)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+      - [Example of multiplication:](#example-of-multiplication)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-3)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
+      - [Example of addition:](#example-of-addition)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-4)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
+      - [Example of division:](#example-of-division)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-5)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
+      - [Example of subtraction:](#example-of-subtraction)
       - [Junior Developer Demonstrates](#junior-developer-demonstrates-6)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-7)
     - [Number Methods](#number-methods)
-      - [Junior Developer Demonstrates](#junior-developer-demonstrates-7)
   - [Next Steps](#next-steps)
 
 ## Objectives
@@ -35,13 +49,14 @@ JavaScript has only one type of number. Numbers can be written with, or without,
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### Instructor Notes
+## Instructor Notes
 
 Here instructors can demonstrate the way to interact with numbers below. Students/Employees can utilize the following examples to gain a foundational understanding of how numbers work in JavaScript.
 
-### Numbers
+## Instructor Explains/Demonstrates
 
-**Example with regular number:**
+
+#### Example with regular number:
 
 ```js
 let example = 7;
@@ -54,7 +69,8 @@ console.log(example);
 
 Create a variable with a number as its value and print it to the console.
 
-**Example with decimal:**
+## Instructor Explains/Demonstrates
+#### Example with decimal:
 
 ```js
 let exampleTwo = 8.88;
@@ -67,7 +83,8 @@ console.log(example2);
 
 Create a variable with a decimal number as its value and print it to the console to see results.
 
-**Example of NAN:**
+## Instructor Explains/Demonstrates 
+#### Example of `NAN`:
 
 ```js
 let x = 100 / "Apple";
@@ -76,7 +93,7 @@ console.log(x);
 // Output: Not a number or Error
 ```
 
-**Example of `typeof`:**
+#### Example of `typeof`:
 
 ```js
 let p = 100;
@@ -93,7 +110,8 @@ console.log(typeof w)
 
 Create two variables with a number and number as a string and show its type by printing it to the console.
 
-**Example of multiplication:**
+## Instructor Explains/Demonstrates
+#### Example of multiplication:
 
 ```js
 let y = 10 * 10;
@@ -106,7 +124,8 @@ console.log(y);
 
 Create a variable or two variables and utilize multiplication and print the answer to the console.
 
-**Example of addition:**
+## Instructor Explains/Demonstrates
+#### Example of addition:
 
 ```js
 let q = 20 + 10;
@@ -119,7 +138,8 @@ console.log(q);
 
 Create a variable or two variables and utilize addition and print the answer to the console.
 
-**Example of division:**
+## Instructor Explains/Demonstrates
+#### Example of division:
 
 ```js
 let t = 1120 / 10;
@@ -132,7 +152,8 @@ console.log(t);
 
 Create a variable or two variables and utilize division and print the answer to the console.
 
-**Example of subtraction:**
+## Instructor Explains/Demonstrates
+#### Example of subtraction:
 
 ```js
 let b = 30 - 10;
@@ -145,6 +166,7 @@ console.log(b);
 
 Create a variable or two variables and utilize subtraction and print the answer to the console.
 
+## Instructor Explains/Demonstrates
 ### Number Methods
 
 Number methods help you work with numbers. They come in handy when working with strings and numbers.
@@ -156,10 +178,6 @@ let e = 123;
 
 console.log(e.toString());
 ```
-
-#### Junior Developer Demonstrates
-
-Create a variable with a number as its value and return the value of the variable as a string and print the answer to the console.
 
 **Example of `valueof` returns a number as a number.**
 

@@ -9,38 +9,27 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
     - [Objects](#objects)
-      - [Object Properties](#object-properties)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
     - [Accessing Object Properties](#accessing-object-properties)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
     - [Create Instance/Add/Update/Delete Object](#create-instanceaddupdatedelete-object)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
-      - [Create new instance](#create-new-instance)
-      - [Update an Object](#update-an-object)
-      - [Add a property](#add-a-property)
-      - [Delete From Object](#delete-from-object)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
-    - [Iterating through an object](#iterating-through-an-object)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
-      - [Nested Object](#nested-object)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+    - [Iterating and nested objects](#iterating-and-nested-objects)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
     - [Object Methods](#object-methods)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
-        - [`This` keyword](#this-keyword)
-        - [Accessing Object Methods](#accessing-object-methods)
-        - [Adding a method](#adding-a-method)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
     - [Classes](#classes)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
-        - [Instantiate](#instantiate)
-        - [Adding methods to classes](#adding-methods-to-classes)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
-      - [Getters and Setters](#getters-and-setters)
-        - [Getters](#getters)
-        - [Setters](#setters)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
+    - [Getters](#getters)
+    - [Setters](#setters)
   - [Next Steps](#next-steps)
 
 ## Objectives
@@ -56,7 +45,7 @@ In this unit you learned about objects, what they are, and how to create them. T
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
 ### Objects
 
@@ -104,7 +93,7 @@ let John = new Dev("John", "Doe", 23, "Software Developer");
 console.log(John);
 ```
 
-#### Object Properties
+**Object Properties**
 
 The `key:value` pairs in JavaScript objects are called properties:
 | Property/Key| Value |
@@ -118,9 +107,8 @@ The `key:value` pairs in JavaScript objects are called properties:
 
 Create 3 `car` objects, using the three methods explained above.
 
+## Instructor Explains/Demonstrates
 ### Accessing Object Properties
-
-#### Instructor Explains/Demonstrates
 
 You can access object properties in two ways, bracket or dot notation:
 
@@ -140,11 +128,11 @@ console.log(dev["firstName"]);
 
 Access the object you just created using both bracket and dot notation.
 
+## Instructor Explains/Demonstrates
+
 ### Create Instance/Add/Update/Delete Object
 
-### Instructor Explains/Demonstrates
-
-#### Create new instance
+**Create new instance**
 
 You can create a new instance of an object using the `new` keyword.
 
@@ -152,7 +140,7 @@ You can create a new instance of an object using the `new` keyword.
 let jane = new Dev("Jane", "Doe", 27, "Software Developer");
 ```
 
-#### Update an Object
+**Update an Object**
 
 You can also update an object:
 
@@ -164,7 +152,7 @@ dev.age = 30;
 dev["job"] = "Director";
 ```
 
-#### Add a property
+**Add a property**
 
 You can also add a property to an object:
 
@@ -172,7 +160,7 @@ You can also add a property to an object:
 dev.motto = "code code code!";
 ```
 
-#### Delete From Object
+**Delete From Object**
 
 Using the `delete` keyword will delete an object property entirely. This deletes the whole key-value pair.
 
@@ -184,10 +172,10 @@ delete dev.age;
 
 Create a new instance of the object you made, update two of its properties, add a property, and delete a property.
 
-### Iterating through an object
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
+### Iterating and nested objects
 In order to iterate through an object, you can use a loop. Using a `for in` loop we can iterate through the object and print out the object's properties to the console.
 
 ```js
@@ -196,7 +184,7 @@ for (key in dev) {
 }
 ```
 
-#### Nested Object
+**Nested Object**
 
 Object properties aren't limited to nest collections inside of an object.
 
@@ -225,9 +213,9 @@ console.log(dev);
 
 Create a nested object and make `for...in` loop to iterate over it and print its properties to the console.
 
-### Object Methods
+## Instructor Explains/Demonstrates
 
-### Instructor Explains/Demonstrates
+### Object Methods
 
 JavaScript methods are actions that can be performed on objects. Methods are functions stored as object properties.
 
@@ -240,15 +228,14 @@ let person = {
   },
 };
 ```
-
-##### `This` keyword
+**`This` keyword**
 
 In a function definition, `this` refers to the "owner" of the function. In the example above, `this` is the person object that "owns" the fullName function.
 In other words, `this.firstName` means the `firstName` property of this object
 
 As you can see above, the `fullName` property is a method that contains a function that will return the person's full name when called.
 
-##### Accessing Object Methods
+**Accessing Object Methods**
 
 You access an object method with the following syntax:
 
@@ -260,7 +247,7 @@ person.fullName();
 
 If you access the `fullName` property, without `()`, it will return the function definition.
 
-##### Adding a method
+**Adding a method**
 
 You can add a method to an object as well, it does not have to be within the object itself, utilize dot notation to access and add:
 
@@ -274,9 +261,9 @@ person.name = function () {
 
 Create a method within the object you have been working with and call it to the console.
 
-### Classes
+## Instructor Explains/Demonstrates
 
-### Instructor Explains/Demonstrates
+### Classes
 
 Classes in JavaScript are a template for creating objects. They encapsulate data with code to work on that data. Instead of using the keyword `function` to initiate it, we use the keyword `class`, and the properties are assigned inside a `constructor()` method.
 
@@ -295,7 +282,7 @@ class Employee {
 **Breakdown:**
 As you can see we have a class of `employee`. Within this class we have constructor methods `name, role, and department`. This means we can create or instantiate an object with these methods.
 
-##### Instantiate
+**Instantiate**
 
 To instantiate means to create an object based off the class. To instantiate an object we do it like so:
 
@@ -305,7 +292,7 @@ const John = new Employee("John Doe", "Software Developer", "Development");
 
 Above we are adding a new employee to our employee class.
 
-##### Adding methods to classes
+**Adding methods to classes**
 
 Lets take the same class from above and add a method to it and instantiate an object with the new method.
 
@@ -335,16 +322,15 @@ console.log(Jane.motto());
 
 Create a class called `Animal` with four constructor arguments: `species, diet, habitat, sound`. Create an instance of the animal class. Add a method that when called prints the sound/call of the animal.
 
-#### Getters and Setters
 
+## Instructor Explains/Demonstrates
 Getters and setters allow you to define object accessors (computed properties) and we use them for the following reasons:
 
 - It gives simpler syntax.
 - It allows equal syntax for properties and methods.
 - It can secure better data quality.
 - It is useful for doing things behind-the-scenes.
-
-##### Getters
+### Getters
 
 Getters are pretty self explanatory, it is used to get the value of a property:
 
@@ -363,7 +349,7 @@ console.log(person.lang);
 
 The above example should return the value of the language property which would be `en`.
 
-##### Setters
+### Setters
 
 Setters are used to `set` the value of property.
 
