@@ -1,6 +1,6 @@
 <img  src="../assets/code-diff-logo.png" alt="Code Differently Logo" style="height:100px; width:300px; padding-bottom: 2em;">
 
-# JavaScript Arrays Drills
+# JavaScript Arrays Lab
 
 
 ## The Set Up

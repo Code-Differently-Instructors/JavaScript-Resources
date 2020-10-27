@@ -5,7 +5,7 @@
 ### The Set Up
 
 - You will need to make a new repository.
-- Create new file called `Prompts.JS`
+- Create new file called `prompts.js`
 - Create a new HTML file and link JS files.
 - Make sure to number the prompts you are answering in order to identify what is being answered.
 
