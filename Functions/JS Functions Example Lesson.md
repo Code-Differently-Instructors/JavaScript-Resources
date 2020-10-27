@@ -20,7 +20,7 @@
       - [Functions: Declarations vs Expressions](#functions-declarations-vs-expressions)
       - [Junior Developers Demonstrate](#junior-developers-demonstrate-2)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
-      - [Variable Scope](#variable-scope)
+        - [Variable Scope](#variable-scope)
         - [Local Scope](#local-scope)
         - [Global Scope](#global-scope)
       - [Junior Developers Demonstrate](#junior-developers-demonstrate-3)
@@ -117,7 +117,7 @@ Create a function declaration and expression, call both to the console.
 
 ### Instructor Explains/Demonstrates
 
-#### Variable Scope
+##### Variable Scope
 
 With the ability to declare variables anywhere within JavaScript code, the location of the declaration will determine the extent of its use within the code, hence known as the variable scope.
 

@@ -9,22 +9,21 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
-  - [Types of Loops](#types-of-loops)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
       - [`For` Loops](#for-loops)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [`for..in` Loop](#forin-loop)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [`For..Of` Loop](#forof-loop)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
-    - [`while` Loops](#while-loops)
-        - [Another Example](#another-example)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+      - [`while` Loops](#while-loops)
+      - [Another Example](#another-example)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
-    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
-    - [`do...while` Loops](#dowhile-loops)
+  - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
+      - [`do...while` Loops](#dowhile-loops)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
   - [Next Steps](#next-steps)
 
@@ -42,9 +41,7 @@ In this unit you learned about loops and how they offer a quick and easy way to 
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### Instructor Explains/Demonstrates
-
-## Types of Loops
+## Instructor Explains/Demonstrates
 
 #### `For` Loops
 
@@ -88,7 +85,7 @@ Let us understand what is going on in the example above. To start, the `for` key
 
 Create a simple `for` loop.
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
 #### `for..in` Loop
 
@@ -110,7 +107,7 @@ for (i in person) {
 
 Create an object and write a simple `for...in` loop to iterate over the object and print its properties and value to the console.
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
 #### `For..Of` Loop
 
@@ -128,9 +125,9 @@ for (let score of scores) {
 
 Create an array and write a simple `for...of` loop to iterate over the array and print its values to the console.
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
-### `while` Loops
+#### `while` Loops
 
 The `while`loop loops through a block of code as long as a specified condition is true.
 
@@ -167,7 +164,7 @@ With each iteration, the loop increments `w` and adds that value to `t`. Therefo
 
 After completing the third pass, the condition `W < 3` is no longer true, so the loop terminates.
 
-##### Another Example
+#### Another Example
 
 ```js
 let count = 1;
@@ -181,9 +178,9 @@ while (count < 11) {
 
 Create `while` loop and print its value to the console.
 
-### Instructor Explains/Demonstrates
+## Instructor Explains/Demonstrates
 
-### `do...while` Loops
+#### `do...while` Loops
 
 The `do...while` statement repeats until a specified condition evaluates to false.
 This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
