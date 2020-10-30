@@ -53,11 +53,11 @@ const car = {
 
 **Prompt 3:** Delete the `gasoline` property from the object. Also print the object before or after deleting the property.
 
-**Prompt 4:** Write a function that returns the object keys as an array.
+**Prompt 4:** Use a method to return the object's keys as an array.
 
-**Prompt 5:** Write a function that returns the object's values as an array.
+**Prompt 5:** Use a method to return the object's values as an array.
 
-**Prompt 6:** Add two more properties to the object `tints: 33%` and `carplay: true`. Print to the console to make sure properties were added.
+**Prompt 6:** Add two more properties to the object above, `tints: '33%'` and `carplay: true`. Print to the console to make sure properties were added.
 
 **Prompt 7:** Add a method called `startEngine` with the following:
 
