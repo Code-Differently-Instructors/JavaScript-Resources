@@ -5,8 +5,14 @@
 
 - [Table of Content](#table-of-content)
   - [Portfolio Project](#portfolio-project)
-    - [First Objective](#first-objective)
-    - [Required Components](#required-components)
+    - [Task](#task)
+      - [Required Components](#required-components)
+        - [Landing Page](#landing-page)
+        - [Navigation](#navigation)
+        - [About Me Page](#about-me-page)
+        - [Project Page](#project-page)
+        - [Contact page](#contact-page)
+        - [Deployment](#deployment)
     - [Make this your own](#make-this-your-own)
     - [Portfolio Examples](#portfolio-examples)
 
@@ -21,21 +27,27 @@ As a software developer it would behoove you to have more than a resume. A portf
 
 A portfolio is a way to create a personal brand for yourself. When people go on to your portfolio, they not only get to see your work but receive a glimpse into who you are. A software developer's portfolio communicates their skillset, but it’s also a way to showcase your personality, your goals and how you got where you are. Essentially a portfolio can tell employers if you're a good fit for their culture and/or whether you’ll excel in any of their open roles.
 
-### First Objective
-Start to draft out what your portfolio is going to look like aesthetically. Create a wireframe to bring your idea into fruition. 
+### Task
+Start to draft out what your portfolio is going to look like aesthetically. Create a wireframe to bring your idea into fruition. Create a repo on your Github called Portfolio.
 
-### Required Components
+#### Required Components
 
-- Create a repo on your Github called Portfolio.
+##### Landing Page
+- You are to create a landing page, where users are greeted with a professional or casual picture of you. This page can showcase your skillset as well. 
 
+##### Navigation
+- Incorporate a navigation bar or a form of navigation that users can use to navigate your site.
+  
+##### About Me Page
 - You are to create an about me page, which will showcase who you are, what you have done, what you are doing, what you are looking to do, and your interest. 
   
-- You are to create a landing page, where users are greeted with a professional or casual picture of you.
+##### Project Page 
+- You are to create a project page, this will showcase projects you have created and/or worked/working on.
   
-- You are to create a project page, this will showcase projects you have created and/or worked on.
-  
-- You are to create a contact page where people can contact you through email or phone.
+##### Contact page
+- You are to create a contact page where people are able to send you an email.
 
+##### Deployment
 - You are deploy your portfolio through Netlify or GitHub Pages.
 
 - Create a domain for your portfolio. 
