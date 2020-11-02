@@ -9,9 +9,10 @@
   - [Objectives](#objectives)
   - [About](#about)
     - [Functions](#functions)
-      - [Function Declaration](#function-declaration)
-      - [Functions With Parameters](#functions-with-parameters)
+      - [Function Declarations in JavaScript?](#function-declarations-in-javascript)
+      - [Function Expressions in JavaScript](#function-expressions-in-javascript)
       - [Functions: Declarations vs Expressions](#functions-declarations-vs-expressions)
+      - [Functions With Parameters](#functions-with-parameters)
       - [Variable Scope](#variable-scope)
         - [Local Scope](#local-scope)
         - [Global Scope](#global-scope)
@@ -35,7 +36,18 @@ A JavaScript function is a block of code designed to perform a particular task. 
 
 Traditionally, a function is defined with the `function` keyword, followed by a name and parentheses `()`. Function names can consist of letters, digits, underscores, and dollar signs embodying the same rules as variables.
 
-#### Function Declaration
+#### Function Declarations in JavaScript?
+
+The `function` statement declares a function. A declared function is “saved for later use”, and will be executed later, when it is invoked (called). Similar to variables, that must start with “var”, “let”, or “const”, a function declaration must begin with keyword `function`.
+
+```js
+function num() {
+return 3;
+}
+
+console.log(num()) //console returns 3
+```
+or
 
 ```js
 function sayHello() {
@@ -45,20 +57,31 @@ function sayHello() {
 // Calling function
 sayHello(); // 0utputs: Hello, welcome to Code Differently!
 ```
+#### Function Expressions in JavaScript
 
-#### Functions With Parameters
-
-You can write parameters when you define your function to accept input values at run time.
-
+A function expression can be stored in a variable:
 ```js
-function sayHello(name = "Guest") {
-  alert("Hello, " + name);
-}
-sayHello(); // 0utputs: Hello, Guest
-sayHello("Roger"); // 0utputs: Hello, Roger
+let x = function (a, b) {return a * b};
 ```
+After a function expression has been stored in a variable, the variable can be used as a function. Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
 
 #### Functions: Declarations vs Expressions
+
+**Function Expression**
+```js
+alert(num()); // error message! num function wasn't loaded yet.
+let num = function() { return 5; }
+```
+
+**Function Declaration**
+```js
+alert(num());// Alerts 10. Declarations are loaded before any code can run.
+function num() { return 10; }
+```
+
+- Function declarations load and run before any code is executed while Function expressions load only when the interpreter reaches that line of code.
+
+- Function declarations are hoisted to the top of other code. Function expressions aren’t hoisted, which allows them to retain a copy of the local variables from the scope where they were defined.
 
 _Function declarations define functions without assigning them to variables._
 
@@ -80,6 +103,17 @@ alert(answer(5, 10)); // 0utput: 15
 
 let total = answer(7, 25);
 alert(total); // 0utput: 32
+```
+#### Functions With Parameters
+
+You can write parameters when you define your function to accept input values at run time.
+
+```js
+function sayHello(name = "Guest") {
+  alert("Hello, " + name);
+}
+sayHello(); // 0utputs: Hello, Guest
+sayHello("Roger"); // 0utputs: Hello, Roger
 ```
 
 #### Variable Scope
@@ -110,7 +144,7 @@ function greetDevs() {
   alert(welcome);
 }
 greetDevs(); // Outputs: Hey Devs!
-alert(greet); // Outputs: Hey Devs!
+alert(welcome); // Outputs: Hey Devs!
 ```
 
 #### Arrow Functions

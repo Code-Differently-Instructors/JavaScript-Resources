@@ -53,12 +53,12 @@ function alphaOrder( 'webmaster')
 //Output : 'abeemrstw'
 ```
 
-**Prompt 5:** Create a function named `changeToLowerCase` that accepts a string as a parameter and converts the first letter of each word of the string in lowercase.
+**Prompt 5:** Create a function named `changeToLowerCase` that accepts a string as a parameter and converts letters of each word of the string to lowercase.
 
 **Example:**
 
 ```js
-function changeToLowerCase('Sally Sells Sea Shells')
+function changeToLowerCase('SaLly SeLls SeA ShelLs')
 //output: 'sally sells sea shells'
 ```
 
@@ -71,7 +71,7 @@ function changeToUpperCase('sally sells sea shells')
 //output: 'Sally Sells Sea Shells'
 ```
 
-**Prompt 6:** Make a function that accepts a string as a parameter and find the longest word within the string.
+**Prompt 7:** Make a function that accepts a string as a parameter and find the longest word within the string.
 
 ```js
 "Welcome to the developmental shop provided by Code Differently".
@@ -79,9 +79,7 @@ function changeToUpperCase('sally sells sea shells')
 Longest Word: "developmental"
 ```
 
-**Prompt 7:** Create a function that takes two parameters: a and b. When called, multiply a times b. Print the answer to the console.
-
-**Prompt 8:** Create an object of your choosing and write a function that returns that object.
+**Prompt 8:** Create a function that takes two parameters: a and b. When called, multiply a times b. Print the answer to the console.
 
 **Prompt 9:** Make an array of your choosing and write a function that returns the array.
 

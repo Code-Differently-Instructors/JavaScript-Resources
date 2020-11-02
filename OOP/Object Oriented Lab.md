@@ -12,7 +12,8 @@
     - [The Task](#the-task)
   - [Object Literals Prompts](#object-literals-prompts)
   - [Classes Prompts](#classes-prompts)
-  - [Getters & Setter Prompts](#getters--setter-prompts)
+  - [Bonus!!!](#bonus)
+    - [Getters & Setter Prompts](#getters--setter-prompts)
   - [Submission](#submission)
 
 ## Object Oriented JavaScript Lab
@@ -107,7 +108,9 @@ const whiskers = {
 
 **Make sure to keep and save work as you will continue working with the same class for next section**
 
-## Getters & Setter Prompts
+## Bonus!!!
+
+### Getters & Setter Prompts
 
 **Prompt 12:** Create a `getter` method called `businessCalls` that retrieves todays date and time.
 
