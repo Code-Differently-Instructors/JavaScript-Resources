@@ -65,7 +65,7 @@ CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” Wh
 
 #### How to create a CSS file.
 
-To create a CSS File, you just have to end the file name with .css, similar to creating an html file.
+To create a CSS File, you just have to end the file name with ```.css```, similar to creating an html file.
 
 #### Junior Devs Demonstrate
 
@@ -75,8 +75,9 @@ Create a CSS file by ending the file name as ```.css```.
 
 #### How to add CSS to HTML.
 - There are two ways to add CSS to HTML:
-Inline - by using the style attribute inside HTML elements
-External - by using a ```<link>``` element to link to an external CSS file
+
+1. Inline - by using the style attribute inside HTML elements
+2. External - by using a ```<link>``` element to link to an external CSS file
 
 The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.
 
@@ -172,8 +173,9 @@ p {
 #### The href Attribute
 
 The ```<a>``` tag defines a hyperlink. The **href** attribute specifies the URL of the page the link goes to:
-
+```html
 <a href="https://www.google.com">Visit Google</a>
+```
 
 #### Junior Devs Demonstrate
 
@@ -183,7 +185,9 @@ The ```<a>``` tag defines a hyperlink. The **href** attribute specifies the URL 
 
 The ```<img>``` tag is used to embed an image in an HTML page. The **src** attribute specifies the path to the image to be displayed. If you have an image saved on your device, then the src attribute would be the best tag to use.
 
-```<img src="images.png>```
+```html
+<img src="images.png>
+```
 
 #### Junior Devs Demonstrate
 
