@@ -53,6 +53,8 @@
 
 ## About
 
+In this unit, you will learn what CSS is all about. You will also learn how to create a file,  tag attributes, Inline and External CSS, changing the color, font, and background color, and adding images.
+
 
 ## How to use
 
