@@ -49,8 +49,9 @@ This will serve as the demonstration instructors will give in regards to what st
 
 #### What is HTML?
 
-1.	HTML, otherwise known as HyperText Markup Language, is the language used to create Web pages.
-2.	Using HTML, you can create a Web page with text, graphics, sound, and video
+HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+
+HTML is not a programming language, meaning it doesn’t have the ability to create dynamic functionality. Instead, it makes it possible to organize and format documents, similarly to Microsoft Word.
 
 ### Instructor Explains/Demonstrates 
 
