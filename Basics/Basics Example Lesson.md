@@ -42,9 +42,27 @@ This will serve as the demonstration instructors will give in regards to what st
 
 ### Instructor Explains/Demonstrates
 
-#### Variables
+### Variables
 
 A variable is where you store information ranging from strings to numbers and many other things. Lets try creating some variables. Remember we have to use `const` and `let` to declare variables.
+
+- Lets try doing some name variables.
+- Declare a first and last name variable with let/const.
+- Declare a birthday variable.
+
+Declaring variables with `let` and `const` help avoid errors an find errors in our code.
+
+- `let`: works the similarly to the `var` keyword but it does not allow the same variable to be declared and reassigned a value. This helps protect your variables and their values.
+
+  - `let` keyword also has **Block Scope**. This means that variables declared inside of a block of code, cannot be accessed outside the block.
+
+  - When defining variables with `let` in HTML, the variables do not belong to the `window` object.
+
+    - Defining variables with `var` in HTML, the variables belong to the `window` object.  
+
+- `const`: short for constant, which means the value of the variable will not change. It will remain *constant*.
+
+  - Protects the variable's value from being overwritten.
 
 ```js
 let dev = "coder";
@@ -154,7 +172,7 @@ const juniorDev = 17;
 const answer = prompt("What is your age?");
 
 if (answer <= 13) {
-  console.log("Come back when youre old enough to code!");
+  console.log("Come back when you're old enough to code!");
 } else if (answer <= 18) {
   console.log("Maybe you can code, you're a junior!");
 } else {
