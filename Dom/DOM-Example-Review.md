@@ -34,82 +34,124 @@ This will serve as the demonstration instructors will give in regards to what st
 Here instructors can demonstrate the way to interact with the DOM below. Students/Employees can utilize the following examples to gain a foundational understanding of how the DOM works in JavaScript.
 
 ## Instructor Explains/Demonstrates
+### What is the DOM??
 
+The DOM stands for `Document Object Model`. It is a representation or map of the webpage that JavaScript can manipulate. We can use the variables of the browser's global scope environment. The global object used by the browser is the <code>window</code>. You will be using the properties of the global object, `document`.
 
-#### What is the DOM??
+The DOM represents a webpage as a tree-like structure.
 
-The DOM stands for `Document Object Model`. It is a representation or map of the webpage that JavaScript can manipulate. 
+  - The document element aka `node` represents the root node of the tree.
+  - `<body>` and `<head>` nodes sprout like branches, leading to others. 
+  - Other elements, such as `<p>`, `<ul>`, etc., can be described as the leaves.
 
+The relationship between nodes is similar to a family structure.
+  - The `<body>` node would be described as the `parent` and the `<h1>` node would represent its child. 
 
 
 #### Junior Developer Demonstrates
 
-Create a variable with a number as its value and print it to the console.
+Name some of the basic tasks JS can do with the DOM?
 
 ## Instructor Explains/Demonstrates
-#### Example with decimal:
+Treehouse names:
+- Select an element
+- Read or change element
+- Respond to user events
 
-```js
-let exampleTwo = 8.88;
-
-console.log(example2);
-// Output: 8.88;
-```
+---
 
 #### Junior Developer Demonstrates
 
-Create a variable with a decimal number as its value and print it to the console to see results.
+The object and properties used to select elements in an HTML document.
+
+
 
 ## Instructor Explains/Demonstrates 
-#### Example of `NAN`:
+
+The `document` keyword represents the object and the keyword/words after the period define a property that belongs to the object. Some of the object's property can be a method or function.
 
 ```js
-let x = 100 / "Apple";
-
-console.log(x);
-// Output: Not a number or Error
+document.getElementByID();
+document.getElementByClass();
+document.innerHTML();
 ```
 
-#### Example of `typeof`:
+#### Example of selecting an element:
 
-```js
-let p = 100;
-let w = “100”
+```html
+<!doctype html>
+<html>
+<head>
+  <title> Document </title>
+</head>
+<body>
+  <h1 id="title"> My Heading! </h1>
+  <script>
 
-console.log(typeof p)
-// Output: shows number
-
-console.log(typeof w)
-//Output: shows string
+</body>
+</html>
 ```
 
-#### Junior Developer Demonstrates
-
-Create two variables with a number and number as a string and show its type by printing it to the console.
-
-## Instructor Explains/Demonstrates
-#### Example of multiplication:
-
 ```js
-let y = 10 * 10;
-
-console.log(y);
-// Output: 20;
+document.getElementByID('title');
 ```
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize multiplication and print the answer to the console.
+Select the `h1` element and change the color from black to orange.
 
 ## Instructor Explains/Demonstrates
-#### Example of addition:
+#### Example changing element black to orange
 
-```js
-let q = 20 + 10;
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-console.log(q);
-// Output: 30;
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <script>
+      document.getElementByID('title').style.color = 'orange';
+    </script>
+  </body>
+</html>
 ```
+
+
+#### Junior Developer Demonstrates
+Create a button and add an event listener to change the background of the webpage from white to purple
+
+## Instructor Explains/Demonstrates
+#### Changing background with event listener on a button:
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myHeading = document.getElementById('title');
+      const myButton = document.getElementById('change');
+
+      myHeading.style.color = 'orange';
+      myButton.addEventListener('click', () => {
+        document.body.style.backgroundColor = 'purple';
+      })
+
+
+    </script>
+  </body>
+</html>
+```
+
+<!-- End DOM edits here -->
+
 
 #### Junior Developer Demonstrates
 

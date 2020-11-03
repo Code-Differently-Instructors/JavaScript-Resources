@@ -5,9 +5,6 @@
 ## JavaScript and the DOM
 
 
-
-
-
 ### The Set-Up
 
 
