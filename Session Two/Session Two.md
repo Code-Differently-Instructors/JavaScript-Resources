@@ -199,7 +199,7 @@ The ```<img>``` tag is used to embed an image in an HTML page. The **src** attri
 If you do not have an image saved on your PC, you can always find one online and use that for your website. In order to do that, you must have the full URL of the image you want to use. 
 
 To use an image on your page, you must use ```<img src>``` to link the image to your page. In this case, lets try it out:
-```<img src=""```
+```<img src="">```
 
 In the quotations, put the full URL of your image.
 
