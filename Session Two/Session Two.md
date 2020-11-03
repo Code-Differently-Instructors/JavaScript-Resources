@@ -43,8 +43,11 @@
 - Define what is CSS.
 - How to create a CSS file.
 - Know how to add CSS to HTML.
-- - Know how to resize an image in CSS and HTML.
+- Know how to resize an image in CSS and HTML.
+- Changing fonts, color, and background color.
+- How to add Images and Styling with CSS.
 - Tag Attributes.
+- External and Internal CSS.
 - The href Attribute.
 - The src Attribute.
 
@@ -203,12 +206,20 @@ To use an image on your page, you must use ```<img src>``` to link the image to 
 
 In the quotations, put the full URL of your image.
 
+Alternatively, you can use the width and height attributes in the ```<img src>``` to change the width and height of the image.
+
+```html
+<img src="images.png" width="500" height="600">
+```
+
+
 #### Junior Devs Demonstrate
 
 Find an image online and use the ```<img src>``` tag to display the image on your page.
 
 
 ### Next Steps
+For the last 15 minutes, try adding an image using external CSS and change the font, color, and background color. While you're at it, add two of your favorite images and resize them to make one bigger, and one smaller.
 
 
 
