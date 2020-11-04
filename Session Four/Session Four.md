@@ -1,10 +1,10 @@
 ![code differently](https://user-images.githubusercontent.com/54545904/91590200-f82ec600-e928-11ea-9433-eea450388abf.png)
 
-# HTML Basics
+# Navigation Bar
 
 # Table of Content
 
-- [HTML Basics](#html-basics)
+- [Navigation Bar](#navigation-bar)
 - [Table of Content](#table-of-content)
   - [Objectives](#objectives)
   - [About](#about)
@@ -22,14 +22,14 @@
 
 ## Objectives
 
-- Know how to add CSS to lists.
-- Know how to add CSS to forms.
-- Lists
-- Forms
+- What is Nav?
+- Know how to style a navigation bar.
+- Margin and Padding.
+
 
 ## About
 
-In this unit, you will learn what CSS is all about. You will also learn how to create a file,  tag attributes, Inline and External CSS, changing the color, font, and background color, and adding images.
+In this unit, you will learn what Nav is all about. You will also learn what is nav, how to style a navigation bar, and margin and padding.
 
 
 ## How to use
