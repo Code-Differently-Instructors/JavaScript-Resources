@@ -29,7 +29,7 @@
 
 ## About
 
-In this unit, you will learn what Nav is all about. You will also learn what is nav, how to style a navigation bar, and margin and padding.
+In this unit, you will learn what Javascript is all about. You will also learn how to display an alert message on your page as well as how to perform different functions using Javascript.
 
 
 ## How to use
