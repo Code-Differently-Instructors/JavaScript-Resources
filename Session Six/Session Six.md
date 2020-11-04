@@ -40,11 +40,9 @@ This will serve as the demonstration instructors will give in regards to what st
 
 #### Instructor Explains/Demonstrates
 
-JavaScript is one of the 3 languages all web developers must learn:
+JavaScript is used to create responsive, interactive elements for web pages, enhancing the user experience.
 
-1.	HTML to define the content of web pages.
-2.	 CSS to specify the layout of web pages.
-3.	JavaScript to program the behavior of web pages.
+JavaScript allows you to take ordinary web elements and make them interactive. It can be used alongside your HTML and CSS and is an extremely important tool for any web developer.
 
 
 #### Junior Devs Demonstrates
