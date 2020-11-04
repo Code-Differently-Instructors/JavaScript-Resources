@@ -161,6 +161,10 @@ In the code above, the unordered list will be open circles bulleted.
 #### Junior Devs Demonstrate
 
 ### Adding CSS to Forms
+
+
+#### Instructor Explains/Demonstrates
+
 You can use the ```width``` property to determine the width of the input field:
 
 ```css
@@ -182,8 +186,6 @@ Will only select password fields.
 input[type=number]
 ```
 Will only select number fields.
-
-#### Instructor Explains/Demonstrates
 
 #### Junior Devs Demonstrate
 
