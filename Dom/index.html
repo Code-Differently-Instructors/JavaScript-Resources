@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myHeading = document.getElementById('title');
+      const myButton = document.getElementById('change');
+
+      myHeading.style.color = 'green';
+      myButton.addEventListener('click', () => {
+        document.body.style.backgroundColor = 'purple';
+      })
+
+
+    </script>
+  </body>
+</html>
