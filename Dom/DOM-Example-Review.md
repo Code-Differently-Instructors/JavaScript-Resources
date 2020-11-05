@@ -150,36 +150,100 @@ Create a button and add an event listener to change the background of the webpag
 </html>
 ```
 
-<!-- End DOM edits here -->
+
 
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize addition and print the answer to the console.
+Select a collection of elements at once and change the color of the font.
 
 ## Instructor Explains/Demonstrates
-#### Example of division:
+#### Example of division: Using getElementsByTagName()
 
-```js
-let t = 1120 / 10;
+```html
 
-console.log(t);
-// Output: 112;
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myHeading = document.getElementById('title');
+      const myButton = document.getElementById('change');
+      const myList = document.getElementsByTagName('li');
+
+      
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+
+      })
+
+
+    </script>
+  </body>
+</html>
 ```
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize division and print the answer to the console.
+Using `querySelector`, select the element with a class name.
 
 ## Instructor Explains/Demonstrates
 #### Example of subtraction:
 
-```js
-let b = 30 - 10;
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-console.log(b);
-// Output: 20;
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+      const myList = document.querySelectorAll('li');
+
+      
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+      })
+    </script>
+  </body>
+</html>
 ```
+
+<!-- End edits here -->
 
 #### Junior Developer Demonstrates
 

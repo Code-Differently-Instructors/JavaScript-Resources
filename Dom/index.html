@@ -6,15 +6,29 @@
 
   <body>
     <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
     <button id="change">Click Me!</button>
 
     <script>
-      const myHeading = document.getElementById('title');
-      const myButton = document.getElementById('change');
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+      const myList = document.querySelectorAll('li');
 
-      myHeading.style.color = 'green';
+      
       myButton.addEventListener('click', () => {
-        document.body.style.backgroundColor = 'purple';
+        myTitle.style.color = 'orange';
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+
       })
 
 
