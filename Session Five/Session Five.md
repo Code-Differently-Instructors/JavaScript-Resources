@@ -11,15 +11,16 @@
   - [How to use](#how-to-use)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
       - [How to add Audio to your webpage.](#how-to-add-audio-to-your-webpage)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [How to add Video to your webpage.](#how-to-add-video-to-your-webpage)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [Embed a video.](#embed-a-video)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
       - [Flex Box](#flex-box)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
     - [Next Steps](#next-steps)
 
 ## Objectives
@@ -49,6 +50,10 @@ You can add audio to your page. If you have an mp3 file  download on your PC/dev
 </audio>
 ```
 
+#### Junior Devs Demonstrate
+
+Add an audio file to your page of your favorite song. No explicit songs allowed!
+
 ### Instructor Explains/Demonstrates 
 
 #### How to add Video to your webpage.
@@ -60,9 +65,9 @@ You can add video to your page. If you have an  mp4 file download on your PC/dev
 </video>
 ```
 
-
 #### Junior Devs Demonstrate
 
+Add a video file to your page of your favorite song. No explicit videos or anything inappropriate allowed!
 
 ### Instructor Explains/Demonstrates 
 
@@ -90,8 +95,9 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 ```
 
-
 #### Junior Devs Demonstrate
+
+Find your favorite video on youtube and try to ad it to your page by embedding it. No inappropriate videos allowed!
 
 ### Instructor Explains/Demonstrates 
 
@@ -126,6 +132,8 @@ The flex container properties are:
 
 
 #### Junior Devs Demonstrate 
+
+Create a flexbox to your page and try to add the embedded video to the flexbox.
 
 ### Next Steps
 
