@@ -33,9 +33,6 @@
 
 ## About
 
-1.	HTML to define the content of web pages.
-2.	 CSS to specify the layout of web pages.
-3.	JavaScript to program the behavior of web pages.
 
 ## How to use
 
@@ -45,35 +42,55 @@ This will serve as the demonstration instructors will give in regards to what st
 
 #### How to add Audio to your webpage.
 
-HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+You can add audio to your page. If you have an mp3 file  download on your PC/device, you can add it your webpage.
 
-HTML is not a programming language, meaning it doesn’t have the ability to create dynamic functionality. Instead, it makes it possible to organize and format documents, similarly to Microsoft Word.
+```html
+<audio>
+<source src=”mario.mp3” type=”audio/mpeg”>
+</audio>
+```
 
 ### Instructor Explains/Demonstrates 
 
 #### How to add Video to your webpage.
 
-To create an html file, you must always end the file with the extension html. By ending the file with .html, the file will now be classified as an html file.
+You can add video to your page. If you have an  mp4 file download on your PC/device, you can add it your webpage.
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+```
+
 
 #### Junior Devs Demonstrate
 
-Create a file and name is index. When you save the file, make sure you add the .html to the end of the file. The file name should be **"index.html".**
 
 ### Instructor Explains/Demonstrates 
 
 #### Embed a video.
 
-All Web pages share a common structure.
+Converting videos to different formats can be difficult and time-consuming.
+
+An easier solution is to let YouTube play the videos in your web page.
+
+YouTube will display an id (like tgbNymZ7vqY), when you save (or play) a video.
+
+You can use this id, and refer to your video in the HTML code.
+To play your video on a web page, do the following:
+
+1. Upload the video to YouTube
+2. Take a note of the video id
+3. Define an ``<iframe>`` element in your web page
+4. Let the src attribute point to the video URL
+5. Use the ``width`` and ``height`` attributes to specify the dimension of the player
+6. Add any other parameters to the URL (see below)
+
 ```html
-<HTML>
-<HEAD>
-<TITLE> Example </TITLE>
-</HEAD>
-<BODY>
-This is where you would include the text and images on your Web page.
-</BODY>
-</HTML>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
 ```
+
 
 #### Junior Devs Demonstrate
 
@@ -81,10 +98,34 @@ This is where you would include the text and images on your Web page.
 
 #### Flex Box
 
-- The essence of HTML programming is tags.
-- A tag is a keyword enclosed by angle brackets (Example: ```<B>```)
-- There are opening and closing tags for many but not all tags; The affected text is between the two tags.
-- The opening and closing tags use the same command except the closing tag contains and additional forward slash /.
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+A flex container with three flex items:
+```html
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+```
+
+```css
+.flex-container {
+  display: flex;
+}
+```
+The flex container becomes flexible by setting the display property to flex:
+
+The flex container properties are:
+
+- ``flex-direction`` defines in which direction the container wants to stack the flex items.
+- ``flex-wrap`` property specifies whether the flex items should wrap or not.
+- ``flex-flow`` property is a shorthand property for setting both the ``flex-direction`` and ``flex-wrap`` properties.
+- ``justify-content`` property is used to align the flex items.
+- ``align-items`` property is used to align the flex items.
+- ``align-content`` property is used to align the flex lines.
+
+
 
 #### Junior Devs Demonstrate 
 
