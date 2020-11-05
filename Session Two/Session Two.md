@@ -20,22 +20,21 @@
       - [Tag Attributes](#tag-attributes)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
       - [Inline CSS](#inline-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
       - [External CSS](#external-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
       - [Changing the font, color, and background color.](#changing-the-font-color-and-background-color)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-7)
       - [The href Attribute](#the-href-attribute)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-8)
       - [The src Attribute](#the-src-attribute)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-9)
       - [Adding Images and Styling with CSS](#adding-images-and-styling-with-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-6)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
     - [Next Steps](#next-steps)
 
 ## Objectives
@@ -106,8 +105,6 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
 
 You can still use a header tag, but with this, you can add the style element to style this header and specify what color you want it to be.
 
-#### Junior Devs Demonstrate
-
 ### Instructor Explains/Demonstrates 
 
 #### External CSS
@@ -149,6 +146,8 @@ Inside the body, h1, and p elements, you have the power to change things such as
 
 #### Junior Devs Demonstrate
 
+Try adding color to a header using Inline CSS. After you complete Inline CSS, try to do the same with External CSS.
+
 ### Instructor Explains/Demonstrates
 
 #### Changing the font, color, and background color.
@@ -173,6 +172,8 @@ p {
 
 #### Junior Devs Demonstrate
 
+Change the background color to your favorite color as well as the color of a header and the font of one header.
+
 ### Instructor Explains/Demonstrates
 
 #### The href Attribute
@@ -183,6 +184,8 @@ The ```<a>``` tag defines a hyperlink. The **href** attribute specifies the URL 
 ```
 
 #### Junior Devs Demonstrate
+
+Create a hyperlink to your favorite website.
 
 ### Instructor Explains/Demonstrates
 
@@ -196,6 +199,7 @@ The ```<img>``` tag is used to embed an image in an HTML page. The **src** attri
 
 #### Junior Devs Demonstrate
 
+If you have a picture saved on your device, create a an image tag of your favorite musician or athlete.
 
 ### Instructor Explains/Demonstrates
 
@@ -217,7 +221,7 @@ Alternatively, you can use the width and height attributes in the ```<img src>``
 
 #### Junior Devs Demonstrate
 
-Find an image online and use the ```<img src>``` tag to display the image on your page.
+Find an image online and use the ```<img src>``` tag to display the image on your page. Try to change the width and height 
 
 
 ### Next Steps

@@ -23,7 +23,6 @@
       - [Paragraph](#paragraph)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
       - [Headers](#headers)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
     - [Next Steps](#next-steps)
 
 ## Objectives
@@ -81,6 +80,8 @@ This is where you would include the text and images on your Web page.
 
 #### Junior Devs Demonstrate
 
+Set up your first page by using the structure talked about. 
+
 ### Instructor Explains/Demonstrates 
 
 #### Tags
@@ -104,7 +105,6 @@ This is where you would include the text and images on your Web page.
 - Web pages are typically organized into sections with headings; To create a heading use the expression ```<Hn>….</Hn>``` where n is a number between 1 and 7.
 - In this case, the 1 corresponds to the largest size heading while the 7 corresponds to the smallest size.
 
-#### Junior Devs Demonstrate
 
 ### Next Steps
 
