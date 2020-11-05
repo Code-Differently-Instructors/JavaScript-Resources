@@ -9,17 +9,17 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [Lists](#lists)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+      - [Lists](#lists)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
-    - [Forms](#forms)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+      - [Forms](#forms)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
-    - [Adding CSS to Lists](#adding-css-to-lists)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+      - [Adding CSS to Lists](#adding-css-to-lists)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
-    - [Adding CSS to Forms](#adding-css-to-forms)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+      - [Adding CSS to Forms](#adding-css-to-forms)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
     - [Next Step](#next-step)
 
@@ -39,9 +39,10 @@ In this unit, you will learn what CSS is all about. You will also learn how to c
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### Lists
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Lists
+
 
 HTML lists allow web developers to group a set of related items in lists.
 
@@ -58,10 +59,9 @@ HTML lists allow web developers to group a set of related items in lists.
 
 #### Junior Devs Demonstrate
 
+### Instructor Explains/Demonstrates
 
-### Forms
-
-#### Instructor Explains/Demonstrates
+#### Forms
 
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
@@ -116,9 +116,9 @@ It is always good to label and give your form an id. To do this, you simply have
 
 Create a form that can allow users to input their first and last names in. Also, create a checkbox for your top 3 favorite snacks.
 
-### Adding CSS to Lists
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Adding CSS to Lists
 
 The CSS list properties allow you to:
 
@@ -160,10 +160,10 @@ In the code above, the unordered list will be open circles bulleted.
 
 #### Junior Devs Demonstrate
 
-### Adding CSS to Forms
+### Instructor Explains/Demonstrates
 
+#### Adding CSS to Forms
 
-#### Instructor Explains/Demonstrates
 
 You can use the ```width``` property to determine the width of the input field:
 
