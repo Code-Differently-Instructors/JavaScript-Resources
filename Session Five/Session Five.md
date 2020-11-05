@@ -24,15 +24,14 @@
 
 ## Objectives
 
-- Define what is HTML.
-- Know how to use a text editor.
-- Understand how to structure an HTML page.
-- Tags.
-- Headers.
-- Paragraphs.
+- Know how to add audio to your webpage.
+- Know how to add video to your webpage.
+- Embedding a video.
+- Flex Box.
 
 ## About
 
+In this unit, you will learn what about audio and video on a webpage, as well embedding a video. You will also learn what is flex box is and how to utilize on your webpage.
 
 ## How to use
 
@@ -126,12 +125,9 @@ The flex container properties are:
 - ``align-content`` property is used to align the flex lines.
 
 
-
 #### Junior Devs Demonstrate 
 
 ### Next Steps
-
-For the last 15 minutes, try to write a small biography of yourself by using the tags talked about during this lesson. Also, try adding 5 headers of different sizes.
 
 
 
