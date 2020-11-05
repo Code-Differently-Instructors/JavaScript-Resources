@@ -16,26 +16,27 @@
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [How to add CSS to HTML.](#how-to-add-css-to-html)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
       - [Tag Attributes](#tag-attributes)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
       - [Inline CSS](#inline-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
       - [External CSS](#external-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
       - [Changing the font, color, and background color.](#changing-the-font-color-and-background-color)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-7)
       - [The href Attribute](#the-href-attribute)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-8)
       - [The src Attribute](#the-src-attribute)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-5)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-6)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-9)
       - [Adding Images and Styling with CSS](#adding-images-and-styling-with-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-6)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-7)
     - [Next Steps](#next-steps)
 
 ## Objectives
@@ -85,6 +86,8 @@ Create a CSS file by ending the file name as ```.css```.
 2. External - by using a ```<link>``` element to link to an external CSS file
 
 The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.
+
+#### Junior Devs Demonstrate
 
 
 ### Instructor Explains/Demonstrates 
@@ -195,7 +198,6 @@ The ```<img>``` tag is used to embed an image in an HTML page. The **src** attri
 ```
 
 #### Junior Devs Demonstrate
-
 
 ### Instructor Explains/Demonstrates
 
