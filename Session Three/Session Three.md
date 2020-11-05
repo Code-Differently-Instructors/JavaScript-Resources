@@ -59,6 +59,9 @@ HTML lists allow web developers to group a set of related items in lists.
 
 #### Junior Devs Demonstrate
 
+Create a list of your top three favorite snacks of all time using an unordered list. Create a list of your top three favorite snacks of all time using an unordered list. 
+
+
 ### Instructor Explains/Demonstrates
 
 #### Forms
@@ -157,8 +160,9 @@ ol.d {
 In the code above, the unordered list will be open circles bulleted.
 
 
-
 #### Junior Devs Demonstrate
+
+Create a lists and try to change the style of it to upper-roman. Also try to change the style to lower-alpha.
 
 ### Instructor Explains/Demonstrates
 
@@ -188,5 +192,7 @@ input[type=number]
 Will only select number fields.
 
 #### Junior Devs Demonstrate
+
+Create a form that takes numbers and text.
 
 ### Next Step
