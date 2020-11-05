@@ -205,7 +205,7 @@ Select a collection of elements at once and change the color of the font.
 Using `querySelector`, select the element with a class name.
 
 ## Instructor Explains/Demonstrates
-#### Example of subtraction:
+#### querySelector()
 
 ```html
 <html>
@@ -247,84 +247,87 @@ Using `querySelector`, select the element with a class name.
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize subtraction and print the answer to the console.
+Return the text content of an element/node and replace with different text.
 
 ## Instructor Explains/Demonstrates
-### Number Methods
+### innerHTML and textContent
 
-Number methods help you work with numbers. They come in handy when working with strings and numbers.
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-**Example of `toString()` method returns a number as a string.**
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
 
-```js
-let e = 123;
+    <button id="change">Click Me!</button>
 
-console.log(e.toString());
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+  
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+        myTitle.textContent = "And I changed it!";
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+      })
+    </script>
+  </body>
+</html>
+```
+---
+
+#### Junior Developer Demonstrates
+
+Return the text content of an element/node and replace with different text.
+
+## Instructor Explains/Demonstrates
+### Changing content by selecting attributes
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+  
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+        myTitle.textContent = "And I changed it!";
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+      })
+    </script>
+  </body>
+</html>
 ```
 
-**Example of `valueof` returns a number as a number.**
 
-```js
-let e = 123;
-
-console.log(e.valueOf());
-```
-
-**Example of `toExponential()` method returns a string, with a number rounded and written using exponential notation.**
-
-```js
-let y = 6.423;
-
-console.log(y.toExponential(2));
-
-console.log(y.toExponential(3));
-
-console.log(y.toExponential(4));
-```
-
-**Example of `toFixed()` method returns a string, with the number written with a specified number of decimals.**
-
-```js
-let w = 7.573;
-
-console.log(w.toFixed(0));
-
-console.log(w.toFixed(2));
-
-console.log(w.toFixed(4));
-```
-
-**Example of `Number()` method can be used to convert JavaScript variables to numbers.**
-
-```js
-Number(true); // returns 1
-
-Number(false); // returns 0
-
-Number("10"); // returns 10
-
-Number("  10"); // returns 10
-
-Number("10.33"); // returns 10.33
-
-Number("10,33"); // returns NaN
-
-Number("10 33"); // returns NaN
-
-Number("John"); // returns NaN
-```
-
-**Example of `parseInt()` parses a string and returns a whole number. Spaces are allowed. Only the first number is returned.**
-
-```js
-let decExample = 9.87;
-
-console.log(parseInt(decExample));
-```
-
-**Example of `parseFloat()` parses a string and returns a number. Spaces are allowed. Only the first number is returned.**
-
-```js
-let decExample2 = "9.87";
-
-console.log(parseFloat(decExample2));

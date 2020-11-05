@@ -20,18 +20,15 @@
       const myTitle = document.querySelector('#title');
       const myButton = document.querySelector('#change');
       const myList = document.querySelectorAll('li');
-
-      
+  
       myButton.addEventListener('click', () => {
         myTitle.style.color = 'orange';
+        myTitle.innerHTML = "And I changed it!";
 
         for(let i = 0; i < myList.length; i++){
           myList[i].style.color = 'red';
         }
-
       })
-
-
     </script>
   </body>
 </html>
