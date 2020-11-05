@@ -14,10 +14,8 @@
       - [Junior Devs Demonstrates](#junior-devs-demonstrates)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [Margin and Padding](#margin-and-padding)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [Styling Nav with CSS](#styling-nav-with-css)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Next Step](#next-step)
 
 ## Objectives
@@ -64,6 +62,8 @@ The block of code above will displayed as such:
 
 #### Junior Devs Demonstrates
 
+Create two navigation links.
+
 ### Instructor Explains/Demonstrates
 
 #### Margin and Padding
@@ -74,8 +74,6 @@ With CSS, you have full control over the margins. There are properties for setti
 
 2. The CSS padding properties are used to generate space around an element's content, inside of any defined borders. With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
 
-
-#### Junior Devs Demonstrate
 
 ### Instructor Explains/Demonstrates
 
@@ -161,6 +159,5 @@ li a:hover {
   background-color: #111;
 }
 ```
-#### Junior Devs Demonstrate
 
 ### Next Step
