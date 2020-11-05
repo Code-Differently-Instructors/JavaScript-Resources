@@ -11,29 +11,23 @@
   - [How to use](#how-to-use)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
       - [What is Javascript?](#what-is-javascript)
-      - [Junior Devs Demonstrates](#junior-devs-demonstrates)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [Alert Messages](#alert-messages)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
     - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate)
       - [Functions in Javascript](#functions-in-javascript)
-      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate-1)
       - [Javascript Data Types](#javascript-data-types)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [Javascript Strings](#javascript-strings)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
       - [Javascript Numbers](#javascript-numbers)
-      - [Junior Devs Demonstrates](#junior-devs-demonstrates-1)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
       - [Javascript Booleans](#javascript-booleans)
-      - [Junior Devs Demonstrates](#junior-devs-demonstrates-2)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
       - [Javascript Arrays](#javascript-arrays)
-      - [Junior Devs Demonstrates](#junior-devs-demonstrates-3)
     - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
       - [Javascript Undefined](#javascript-undefined)
-      - [Junior Devs Demonstrates](#junior-devs-demonstrates-4)
     - [Next Step](#next-step)
 
 ## Objectives
@@ -59,9 +53,6 @@ This will serve as the demonstration instructors will give in regards to what st
 JavaScript is used to create responsive, interactive elements for web pages, enhancing the user experience.
 
 JavaScript allows you to take ordinary web elements and make them interactive. It can be used alongside your HTML and CSS and is an extremely important tool for any web developer.
-
-
-#### Junior Devs Demonstrates
 
 
 ### Instructor Explains/Demonstrates
@@ -100,6 +91,8 @@ The alert function allows an alert to appear on screen once you click the button
 
 #### Junior Devs Demonstrate
 
+Create an alert message that introduces the user to your page.
+
 ### Instructor Explains/Demonstrate
 
 #### Functions in Javascript
@@ -108,7 +101,6 @@ The one cool thing that Javascript allows you to do is to perform functions. If 
 
 By right clicking a page and going to the console, you are able to perform multiple things such as functions, operations, displaying messages to the screen, etc.
 
-#### Junior Devs Demonstrate
 
 ### Instructor Explains/Demonstrate
 
@@ -147,8 +139,6 @@ var x1 = 34.00;     // Written with decimals
 var x2 = 34;        // Written without decimals
 ```
 
-#### Junior Devs Demonstrates
-
 ### Instructor Explains/Demonstrates
 
 #### Javascript Booleans
@@ -161,8 +151,6 @@ var z = 6;
 (x == y)       // Returns true
 (x == z)       // Returns false
 ```
-
-#### Junior Devs Demonstrates
 
 ### Instructor Explains/Demonstrates
 
@@ -181,9 +169,6 @@ var cars = ["Saab", "Volvo", "BMW"];
 Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
 
 
-
-#### Junior Devs Demonstrates
-
 ### Instructor Explains/Demonstrates
 
 #### Javascript Undefined 
@@ -194,6 +179,10 @@ In JavaScript, a variable without a value, has the value ``undefined``. The type
 var car;    // Value is undefined, type is undefined
 ```
 
-#### Junior Devs Demonstrates
-
 ### Next Step
+
+Play around the Javascript. Attempt to try the following:
+1. Print a string that says ``("Welcome to my page!)``
+2. Print a number between 1-10.
+3. Print a one Boolean that is true and another that is false.
+4. Create and print an array of your favorite artists.
