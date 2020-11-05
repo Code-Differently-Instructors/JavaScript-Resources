@@ -9,14 +9,14 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [Nav Bar](#nav-bar)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+      - [Nav Bar](#nav-bar)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates)
-    - [Margin and Padding](#margin-and-padding)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+      - [Margin and Padding](#margin-and-padding)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
-    - [Styling Nav with CSS](#styling-nav-with-css)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+      - [Styling Nav with CSS](#styling-nav-with-css)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
     - [Next Step](#next-step)
 
@@ -36,9 +36,9 @@ In this unit, you will learn what Nav is all about. You will also learn what is 
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### Nav Bar
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Nav Bar
 
 The ```<nav>``` tag defines a set of navigation links.
 
@@ -64,9 +64,10 @@ The block of code above will displayed as such:
 
 #### Junior Devs Demonstrates
 
-### Margin and Padding
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Margin and Padding
+
 
 1. The CSS margin properties are used to create space around elements, outside of any defined borders.
 With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
@@ -76,9 +77,9 @@ With CSS, you have full control over the margins. There are properties for setti
 
 #### Junior Devs Demonstrate
 
-### Styling Nav with CSS
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Styling Nav with CSS
 
 A navigation bar needs standard HTML as a base.
 
