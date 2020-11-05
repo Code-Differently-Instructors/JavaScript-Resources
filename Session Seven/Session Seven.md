@@ -82,3 +82,5 @@ Project revisions can be discussed publicly, so a mass of experts can contribute
 Using an online repository provides a nice and simple way to have their code and version history available online, regardless of what happens to their local machine. For some people, this is enough, but we stress that a multi solution backup plan is always the best.
 
 ### Next Step
+
+Practice remembering what each Git command is, the sooner you remember it, the easier it will be when coding in the long run. 
