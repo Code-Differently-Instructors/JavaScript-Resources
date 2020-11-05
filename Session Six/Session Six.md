@@ -9,30 +9,30 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [How to use](#how-to-use)
-    - [What is Javascript?](#what-is-javascript)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
+      - [What is Javascript?](#what-is-javascript)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates)
-    - [Alert Messages](#alert-messages)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
+      - [Alert Messages](#alert-messages)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate)
-    - [Functions in Javascript](#functions-in-javascript)
-      - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate)
+    - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate)
+      - [Functions in Javascript](#functions-in-javascript)
       - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
-    - [Javascript Data Types](#javascript-data-types)
-      - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate-1)
-    - [Javascript Strings](#javascript-strings)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
-    - [Javascript Numbers](#javascript-numbers)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+    - [Instructor Explains/Demonstrate](#instructor-explainsdemonstrate-1)
+      - [Javascript Data Types](#javascript-data-types)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
+      - [Javascript Strings](#javascript-strings)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
+      - [Javascript Numbers](#javascript-numbers)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates-1)
-    - [Javascript Booleans](#javascript-booleans)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
+      - [Javascript Booleans](#javascript-booleans)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates-2)
-    - [Javascript Arrays](#javascript-arrays)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-5)
+      - [Javascript Arrays](#javascript-arrays)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates-3)
-    - [Javascript Undefined](#javascript-undefined)
-      - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-6)
+      - [Javascript Undefined](#javascript-undefined)
       - [Junior Devs Demonstrates](#junior-devs-demonstrates-4)
     - [Next Step](#next-step)
 
@@ -52,9 +52,9 @@ In this unit, you will learn what Javascript is all about. You will also learn h
 
 This will serve as the demonstration instructors will give in regards to what students/employees have learned whether in Treehouse or otherwise. The "Instructor Explains/Demonstrates" section is for the instructor to explain the following topic and there are pre-made examples to use for demonstration purposes. The "Junior Devs Demonstrate" is for the students/employees to demonstrate what they just learned.
 
-### What is Javascript?
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### What is Javascript?
 
 JavaScript is used to create responsive, interactive elements for web pages, enhancing the user experience.
 
@@ -63,9 +63,10 @@ JavaScript allows you to take ordinary web elements and make them interactive. I
 
 #### Junior Devs Demonstrates
 
-### Alert Messages
 
-#### Instructor Explains/Demonstrates
+### Instructor Explains/Demonstrates
+
+#### Alert Messages
 
 An alert box is often used if you want to make sure information comes through to the user.
 
@@ -99,9 +100,9 @@ The alert function allows an alert to appear on screen once you click the button
 
 #### Junior Devs Demonstrate
 
-### Functions in Javascript
+### Instructor Explains/Demonstrate
 
-#### Instructor Explains/Demonstrate
+#### Functions in Javascript
 
 The one cool thing that Javascript allows you to do is to perform functions. If by any chance you wanted to find out what 8 + 4 was, you can find the answer using Javascript.
 
@@ -109,9 +110,9 @@ By right clicking a page and going to the console, you are able to perform multi
 
 #### Junior Devs Demonstrate
 
-### Javascript Data Types
+### Instructor Explains/Demonstrate
 
-#### Instructor Explains/Demonstrate
+#### Javascript Data Types
 
 JavaScript variables can hold many data types: numbers, strings, objects and more:
 
@@ -121,9 +122,9 @@ var lastName = "Johnson";     // String
 var x = {firstName:"John"};   // Object
 ```
 
-### Javascript Strings
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Javascript Strings
 
 A string (or a text string) is a series of characters like "John Doe". 
 
@@ -134,10 +135,9 @@ var carName2 = 'Volvo XC60';   // Using single quotes
 ```
 You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
 
+### Instructor Explains/Demonstrates
 
-### Javascript Numbers
-
-#### Instructor Explains/Demonstrates
+#### Javascript Numbers
 
 JavaScript has only one type of numbers.
 
@@ -149,9 +149,9 @@ var x2 = 34;        // Written without decimals
 
 #### Junior Devs Demonstrates
 
-### Javascript Booleans
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Javascript Booleans
 
 Booleans can only have two values: ``true`` or ``false``.
 ```js
@@ -164,9 +164,9 @@ var z = 6;
 
 #### Junior Devs Demonstrates
 
-### Javascript Arrays
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Javascript Arrays
 
 JavaScript arrays are written with square brackets.
 
@@ -184,9 +184,9 @@ Array indexes are zero-based, which means the first item is [0], second is [1], 
 
 #### Junior Devs Demonstrates
 
-### Javascript Undefined 
+### Instructor Explains/Demonstrates
 
-#### Instructor Explains/Demonstrates
+#### Javascript Undefined 
 
 In JavaScript, a variable without a value, has the value ``undefined``. The type is also ``undefined``.
 
@@ -195,6 +195,5 @@ var car;    // Value is undefined, type is undefined
 ```
 
 #### Junior Devs Demonstrates
-
 
 ### Next Step
