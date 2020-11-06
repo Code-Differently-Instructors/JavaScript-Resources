@@ -48,22 +48,13 @@ The relationship between nodes is similar to a family structure.
   - The `<body>` node would be described as the `parent` and the `<h1>` node would represent its child. 
 
 
-#### Junior Developer Demonstrates
-
-Name some of the basic tasks JS can do with the DOM?
-
 ## Instructor Explains/Demonstrates
-Treehouse names:
-- Select an element
-- Read or change element
-- Respond to user events
 
----
+With the DOM, developers have the ability to select elements, reach or change elements, and respond to user events. 
 
 #### Junior Developer Demonstrates
 
-The object and properties used to select elements in an HTML document.
-
+Name object and properties used to select elements in an HTML document.
 
 
 ## Instructor Explains/Demonstrates 
@@ -73,9 +64,15 @@ The `document` keyword represents the object and the keyword/words after the per
 ```js
 document.getElementByID();
 document.getElementByClass();
-document.innerHTML();
+document.innerHTML ;
 ```
 
+#### Junior Developer Demonstrates
+
+Select the element with an `id` of `title`.
+
+
+## Instructor Explains/Demonstrates 
 #### Example of selecting an element:
 
 ```html
@@ -96,12 +93,18 @@ document.innerHTML();
 document.getElementByID('title');
 ```
 
-#### Junior Developer Demonstrates
-
-Select the `h1` element and change the color from black to orange.
+---
 
 ## Instructor Explains/Demonstrates
-#### Example changing element black to orange
+
+When selecting an element to perform an action, store that element in a variable. Then code to alter the element
+
+#### Junior Developer Demonstrates
+
+Select the  element with the `id` of `title` and change the color from black to orange.
+
+## Instructor Explains/Demonstrates
+#### Example changing element black to orange using getElementById():
 
 ```html
 <html>
@@ -118,12 +121,18 @@ Select the `h1` element and change the color from black to orange.
 </html>
 ```
 
+---
+
+## Instructor Explains/Demonstrates
+
+Going even further, we can add an `event listener` to perform an action when a user clicks a button.
 
 #### Junior Developer Demonstrates
+
 Create a button and add an event listener to change the background of the webpage from white to purple
 
 ## Instructor Explains/Demonstrates
-#### Changing background with event listener on a button:
+#### Example Changing background with event listener on a button:
 
 ```html
 <html>
@@ -150,15 +159,18 @@ Create a button and add an event listener to change the background of the webpag
 </html>
 ```
 
+---
 
+## Instructor Explains/Demonstrates
 
+The `document` object also has properties that allow a developer to select a collection of elements and perform tasks on them. Using the method `getElementsByTagName()`, we can select all of the elements in HTML with a specific tag name. 
 
 #### Junior Developer Demonstrates
 
-Select a collection of elements at once and change the color of the font.
+Select all of the `li` elements at and change the color of the text.
 
 ## Instructor Explains/Demonstrates
-#### Example of division: Using getElementsByTagName()
+#### Example of getElementsByTagName():
 
 ```html
 
@@ -199,13 +211,19 @@ Select a collection of elements at once and change the color of the font.
   </body>
 </html>
 ```
+---
+
+## Instructor Explains/Demonstrates
+
+A more flexible way to select HTML elements are to use the `querySelector()` and `querySelectorAll()`.
+These methods accept `ids`, `classes`, tag names, and more. 
 
 #### Junior Developer Demonstrates
 
-Using `querySelector`, select the element with a class name.
+Using `querySelector`, select an element with an `id` name.
 
 ## Instructor Explains/Demonstrates
-#### querySelector()
+#### Example of using querySelector()
 
 ```html
 <html>
@@ -228,29 +246,25 @@ Using `querySelector`, select the element with a class name.
     <script>
       const myTitle = document.querySelector('#title');
       const myButton = document.querySelector('#change');
-      const myList = document.querySelectorAll('li');
-
       
-      myButton.addEventListener('click', () => {
-        myTitle.style.color = 'orange';
-
-        for(let i = 0; i < myList.length; i++){
-          myList[i].style.color = 'red';
-        }
-      })
     </script>
   </body>
 </html>
 ```
 
-<!-- End edits here -->
+---
+
+## Instructor Explains/Demonstrates
+
+Let's go even further with the DOM. We have the power to no only change the style of elements but we can change the text using the DOM. Using the properties, `textContent` and `innerHTML`, we can select any element with text and completely change it.  
+
 
 #### Junior Developer Demonstrates
 
-Return the text content of an element/node and replace with different text.
+Return the text content of an element/node and replace with different text using either `textContent` or `innerHTML`.
 
 ## Instructor Explains/Demonstrates
-### innerHTML and textContent
+### Example of using innerHTML and textContent
 
 ```html
 <html>
@@ -262,8 +276,8 @@ Return the text content of an element/node and replace with different text.
     <h1 id="title"> My Heading! </h1>
     <p> A list of red fruits </p>
     <ul>
-      <li> red delicious apples</li>
-      <li> strawberries</li>
+      <li>red delicious apples</li>
+      <li>strawberries</li>
       <li>raspberries</li>
       <li>pomegranate</li>
     </ul>
@@ -277,23 +291,24 @@ Return the text content of an element/node and replace with different text.
       myButton.addEventListener('click', () => {
         myTitle.style.color = 'orange';
         myTitle.textContent = "And I changed it!";
-
-        for(let i = 0; i < myList.length; i++){
-          myList[i].style.color = 'red';
-        }
-      })
+      });
     </script>
   </body>
 </html>
 ```
 ---
 
+## Instructor Explains/Demonstrates
+
+The DOM also allows developers to change an element's `attribute`. This can be useful in cases where a form's `action` value needs to change or be directed differently due to the user's input.
+
 #### Junior Developer Demonstrates
 
-Return the text content of an element/node and replace with different text.
+Change the `input` attribute's value from `radio` to `checkbox`.
 
 ## Instructor Explains/Demonstrates
-### Changing content by selecting attributes
+### Example: Changing input type from radio to checkbox
+
 
 ```html
 <html>
@@ -304,30 +319,37 @@ Return the text content of an element/node and replace with different text.
   <body>
     <h1 id="title"> My Heading! </h1>
     <p> A list of red fruits </p>
-    <ul>
-      <li> red delicious apples</li>
-      <li> strawberries</li>
-      <li>raspberries</li>
-      <li>pomegranate</li>
-    </ul>
-
+    <form>
+      <input type="radio" id="red-apple" name="red fruits" value="red delicious">
+      <label for="red-apple">Red Delicious Apples</label><br>
+      <input type="radio" id="strawberry" name="red fruits" value="strawberry">
+      <label for="strawberry">Strawberries</label><br>
+      <input type="radio" id="pomegranate" name="red fruits" value="pomegranate">
+      <label for="pomegranate">Pomegranate</label>
+    </form>
+    <br>
     <button id="change">Click Me!</button>
 
     <script>
       const myTitle = document.querySelector('#title');
       const myButton = document.querySelector('#change');
-  
+      const myInputs = document.querySelectorAll('input');
+      const myLabels = document.querySelectorAll('label');
+     
       myButton.addEventListener('click', () => {
-        myTitle.style.color = 'orange';
-        myTitle.textContent = "And I changed it!";
-
-        for(let i = 0; i < myList.length; i++){
-          myList[i].style.color = 'red';
+        myTitle.style.color = 'green';
+        myTitle.innerHTML = "And I changed it!";
+        
+        for(let i = 0; i < myInputs.length; i++){
+          myInputs[i].type = 'checkbox';
         }
-      })
+
+        for (let j = 0; j < myLabels.length; j++){
+          myLabels[j].style.color = 'red';
+        }   
+      });
     </script>
   </body>
 </html>
 ```
-
 

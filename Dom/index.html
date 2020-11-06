@@ -7,28 +7,35 @@
   <body>
     <h1 id="title"> My Heading! </h1>
     <p> A list of red fruits </p>
-    <ul>
-      <li> red delicious apples</li>
-      <li> strawberries</li>
-      <li>raspberries</li>
-      <li>pomegranate</li>
-    </ul>
-
+    <form>
+      <input type="radio" id="red-apple" name="red fruits" value="red delicious">
+      <label for="red-apple">Red Delicious Apples</label><br>
+      <input type="radio" id="strawberry" name="red fruits" value="strawberry">
+      <label for="strawberry">Strawberries</label><br>
+      <input type="radio" id="pomegranate" name="red fruits" value="pomegranate">
+      <label for="pomegranate">Pomegranate</label>
+    </form>
+    <br>
     <button id="change">Click Me!</button>
 
     <script>
       const myTitle = document.querySelector('#title');
       const myButton = document.querySelector('#change');
-      const myList = document.querySelectorAll('li');
-  
+      const myInputs = document.querySelectorAll('input');
+      const myLabels = document.querySelectorAll('label');
+     
       myButton.addEventListener('click', () => {
-        myTitle.style.color = 'orange';
+        myTitle.style.color = 'green';
         myTitle.innerHTML = "And I changed it!";
-
-        for(let i = 0; i < myList.length; i++){
-          myList[i].style.color = 'red';
+        
+        for(let i = 0; i < myInputs.length; i++){
+          myInputs[i].type = 'checkbox';
         }
-      })
+
+        for (let j = 0; j < myLabels.length; j++){
+          myLabels[j].style.color = 'red';
+        }   
+      });
     </script>
   </body>
 </html>
