@@ -1,9 +1,9 @@
-// Prompt 1
-function greeting() {
-  alert("Hey there");
-}
-// Calling function
-greeting();
+// // Prompt 1
+// function greeting() {
+//   alert("Hey there");
+// }
+// // Calling function
+// greeting();
 
 
 // Prompt 2 https://www.freecodecamp.org/news/js-basics-how-to-reverse-a-number-9aefc20afa8d/
