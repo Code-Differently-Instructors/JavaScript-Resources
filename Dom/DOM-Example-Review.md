@@ -34,191 +34,322 @@ This will serve as the demonstration instructors will give in regards to what st
 Here instructors can demonstrate the way to interact with the DOM below. Students/Employees can utilize the following examples to gain a foundational understanding of how the DOM works in JavaScript.
 
 ## Instructor Explains/Demonstrates
+### What is the DOM??
 
+The DOM stands for `Document Object Model`. It is a representation or map of the webpage that JavaScript can manipulate. We can use the variables of the browser's global scope environment. The global object used by the browser is the <code>window</code>. You will be using the properties of the global object, `document`.
 
-#### What is the DOM??
+The DOM represents a webpage as a tree-like structure.
 
-The DOM stands for `Document Object Model`. It is a representation or map of the webpage that JavaScript can manipulate. 
+  - The document element aka `node` represents the root node of the tree.
+  - `<body>` and `<head>` nodes sprout like branches, leading to others. 
+  - Other elements, such as `<p>`, `<ul>`, etc., can be described as the leaves.
 
+The relationship between nodes is similar to a family structure.
+  - The `<body>` node would be described as the `parent` and the `<h1>` node would represent its child. 
 
-
-#### Junior Developer Demonstrates
-
-Create a variable with a number as its value and print it to the console.
 
 ## Instructor Explains/Demonstrates
-#### Example with decimal:
 
-```js
-let exampleTwo = 8.88;
-
-console.log(example2);
-// Output: 8.88;
-```
+With the DOM, developers have the ability to select elements, reach or change elements, and respond to user events. 
 
 #### Junior Developer Demonstrates
 
-Create a variable with a decimal number as its value and print it to the console to see results.
+Name object and properties used to select elements in an HTML document.
+
 
 ## Instructor Explains/Demonstrates 
-#### Example of `NAN`:
+
+The `document` keyword represents the object and the keyword/words after the period define a property that belongs to the object. Some of the object's property can be a method or function.
 
 ```js
-let x = 100 / "Apple";
-
-console.log(x);
-// Output: Not a number or Error
-```
-
-#### Example of `typeof`:
-
-```js
-let p = 100;
-let w = “100”
-
-console.log(typeof p)
-// Output: shows number
-
-console.log(typeof w)
-//Output: shows string
+document.getElementByID();
+document.getElementByClass();
+document.innerHTML ;
 ```
 
 #### Junior Developer Demonstrates
 
-Create two variables with a number and number as a string and show its type by printing it to the console.
+Select the element with an `id` of `title`.
 
-## Instructor Explains/Demonstrates
-#### Example of multiplication:
+
+## Instructor Explains/Demonstrates 
+#### Example of selecting an element:
+
+```html
+<!doctype html>
+<html>
+<head>
+  <title> Document </title>
+</head>
+<body>
+  <h1 id="title"> My Heading! </h1>
+  <script>
+
+</body>
+</html>
+```
 
 ```js
-let y = 10 * 10;
-
-console.log(y);
-// Output: 20;
+document.getElementByID('title');
 ```
+
+---
+
+## Instructor Explains/Demonstrates
+
+When selecting an element to perform an action, store that element in a variable. Then code to alter the element
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize multiplication and print the answer to the console.
+Select the  element with the `id` of `title` and change the color from black to orange.
 
 ## Instructor Explains/Demonstrates
-#### Example of addition:
+#### Example changing element black to orange using getElementById():
 
-```js
-let q = 20 + 10;
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-console.log(q);
-// Output: 30;
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <script>
+      document.getElementByID('title').style.color = 'orange';
+    </script>
+  </body>
+</html>
 ```
+
+---
+
+## Instructor Explains/Demonstrates
+
+Going even further, we can add an `event listener` to perform an action when a user clicks a button.
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize addition and print the answer to the console.
+Create a button and add an event listener to change the background of the webpage from white to purple
 
 ## Instructor Explains/Demonstrates
-#### Example of division:
+#### Example Changing background with event listener on a button:
 
-```js
-let t = 1120 / 10;
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-console.log(t);
-// Output: 112;
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myHeading = document.getElementById('title');
+      const myButton = document.getElementById('change');
+
+      myHeading.style.color = 'orange';
+      myButton.addEventListener('click', () => {
+        document.body.style.backgroundColor = 'purple';
+      })
+
+
+    </script>
+  </body>
+</html>
 ```
+
+---
+
+## Instructor Explains/Demonstrates
+
+The `document` object also has properties that allow a developer to select a collection of elements and perform tasks on them. Using the method `getElementsByTagName()`, we can select all of the elements in HTML with a specific tag name. 
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize division and print the answer to the console.
+Select all of the `li` elements at and change the color of the text.
 
 ## Instructor Explains/Demonstrates
-#### Example of subtraction:
+#### Example of getElementsByTagName():
 
-```js
-let b = 30 - 10;
+```html
 
-console.log(b);
-// Output: 20;
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myHeading = document.getElementById('title');
+      const myButton = document.getElementById('change');
+      const myList = document.getElementsByTagName('li');
+
+      
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+
+        for(let i = 0; i < myList.length; i++){
+          myList[i].style.color = 'red';
+        }
+
+      })
+
+
+    </script>
+  </body>
+</html>
 ```
+---
+
+## Instructor Explains/Demonstrates
+
+A more flexible way to select HTML elements are to use the `querySelector()` and `querySelectorAll()`.
+These methods accept `ids`, `classes`, tag names, and more. 
 
 #### Junior Developer Demonstrates
 
-Create a variable or two variables and utilize subtraction and print the answer to the console.
+Using `querySelector`, select an element with an `id` name.
 
 ## Instructor Explains/Demonstrates
-### Number Methods
+#### Example of using querySelector()
 
-Number methods help you work with numbers. They come in handy when working with strings and numbers.
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
 
-**Example of `toString()` method returns a number as a string.**
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li> red delicious apples</li>
+      <li> strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
 
-```js
-let e = 123;
+    <button id="change">Click Me!</button>
 
-console.log(e.toString());
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+      
+    </script>
+  </body>
+</html>
 ```
 
-**Example of `valueof` returns a number as a number.**
+---
 
-```js
-let e = 123;
+## Instructor Explains/Demonstrates
 
-console.log(e.valueOf());
+Let's go even further with the DOM. We have the power to no only change the style of elements but we can change the text using the DOM. Using the properties, `textContent` and `innerHTML`, we can select any element with text and completely change it.  
+
+
+#### Junior Developer Demonstrates
+
+Return the text content of an element/node and replace with different text using either `textContent` or `innerHTML`.
+
+## Instructor Explains/Demonstrates
+### Example of using innerHTML and textContent
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li>red delicious apples</li>
+      <li>strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+  
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'orange';
+        myTitle.textContent = "And I changed it!";
+      });
+    </script>
+  </body>
+</html>
+```
+---
+
+## Instructor Explains/Demonstrates
+
+The DOM also allows developers to change an element's `attribute`. This can be useful in cases where a form's `action` value needs to change or be directed differently due to the user's input.
+
+#### Junior Developer Demonstrates
+
+Change the `input` attribute's value from `radio` to `checkbox`.
+
+## Instructor Explains/Demonstrates
+### Example: Changing input type from radio to checkbox
+
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+  <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <form>
+      <input type="radio" id="red-apple" name="red fruits" value="red delicious">
+      <label for="red-apple">Red Delicious Apples</label><br>
+      <input type="radio" id="strawberry" name="red fruits" value="strawberry">
+      <label for="strawberry">Strawberries</label><br>
+      <input type="radio" id="pomegranate" name="red fruits" value="pomegranate">
+      <label for="pomegranate">Pomegranate</label>
+    </form>
+    <br>
+    <button id="change">Click Me!</button>
+
+    <script>
+      const myTitle = document.querySelector('#title');
+      const myButton = document.querySelector('#change');
+      const myInputs = document.querySelectorAll('input');
+      const myLabels = document.querySelectorAll('label');
+     
+      myButton.addEventListener('click', () => {
+        myTitle.style.color = 'green';
+        myTitle.innerHTML = "And I changed it!";
+        
+        for(let i = 0; i < myInputs.length; i++){
+          myInputs[i].type = 'checkbox';
+        }
+
+        for (let j = 0; j < myLabels.length; j++){
+          myLabels[j].style.color = 'red';
+        }   
+      });
+    </script>
+  </body>
+</html>
 ```
 
-**Example of `toExponential()` method returns a string, with a number rounded and written using exponential notation.**
-
-```js
-let y = 6.423;
-
-console.log(y.toExponential(2));
-
-console.log(y.toExponential(3));
-
-console.log(y.toExponential(4));
-```
-
-**Example of `toFixed()` method returns a string, with the number written with a specified number of decimals.**
-
-```js
-let w = 7.573;
-
-console.log(w.toFixed(0));
-
-console.log(w.toFixed(2));
-
-console.log(w.toFixed(4));
-```
-
-**Example of `Number()` method can be used to convert JavaScript variables to numbers.**
-
-```js
-Number(true); // returns 1
-
-Number(false); // returns 0
-
-Number("10"); // returns 10
-
-Number("  10"); // returns 10
-
-Number("10.33"); // returns 10.33
-
-Number("10,33"); // returns NaN
-
-Number("10 33"); // returns NaN
-
-Number("John"); // returns NaN
-```
-
-**Example of `parseInt()` parses a string and returns a whole number. Spaces are allowed. Only the first number is returned.**
-
-```js
-let decExample = 9.87;
-
-console.log(parseInt(decExample));
-```
-
-**Example of `parseFloat()` parses a string and returns a number. Spaces are allowed. Only the first number is returned.**
-
-```js
-let decExample2 = "9.87";
-
-console.log(parseFloat(decExample2));
