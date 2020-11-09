@@ -97,7 +97,7 @@ document.getElementByID('title');
 
 ## Instructor Explains/Demonstrates
 
-When selecting an element to perform an action, store that element in a variable. Then code to alter the element
+When selecting an element to perform an action, store that element in a variable. Then code to alter the element.
 
 #### Junior Developer Demonstrates
 
@@ -256,7 +256,7 @@ Using `querySelector`, select an element with an `id` name.
 
 ## Instructor Explains/Demonstrates
 
-Let's go even further with the DOM. We have the power to no only change the style of elements but we can change the text using the DOM. Using the properties, `textContent` and `innerHTML`, we can select any element with text and completely change it.  
+Let's go even further with the DOM. We have the power to no only change the style of elements but we can change the text using the DOM. Using the properties, `textContent` and `innerHTML`, we can such as that.  
 
 
 #### Junior Developer Demonstrates
@@ -352,4 +352,94 @@ Change the `input` attribute's value from `radio` to `checkbox`.
   </body>
 </html>
 ```
+
+---
+
+## Instructor Explains/Demonstrates
+
+The DOM also allows developers to create an element and give it a value using the `createElement()` and `appendChild()` methods. 
+
+#### Junior Developer Demonstrates
+
+Using `createElement()` and `appendChild()` methods, add a button to the HTML doc using the DOM with the text "Click Me!"
+
+
+## Instructor Explains/Demonstrates
+### Example: `createElement()` and `appendChild()`
+
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+   <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li>red delicious apples</li>
+      <li>strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <script>
+      const myButton = document.createElement('button');
+      document.body.appendChild(myButton).textContent = "Click Me!";
+    </script>
+  </body>
+</html>
+```
+
+---
+
+
+#### Junior Developer Demonstrates
+
+Using `createElement()` and `appendChild()` methods, create an input to add items to the list of fruits.
+
+
+## Instructor Explains/Demonstrates
+### Example: `createElement()` and `appendChild()`
+
+
+```html
+<html>
+  <head>
+    <title> Document </title>
+  </head>
+
+   <body>
+    <h1 id="title"> My Heading! </h1>
+    <p> A list of red fruits </p>
+    <ul>
+      <li>red delicious apples</li>
+      <li>strawberries</li>
+      <li>raspberries</li>
+      <li>pomegranate</li>
+    </ul>
+
+    <script>
+      const myButton = document.createElement('button');
+      document.body.appendChild(myButton).textContent = "Click Me!";
+      const myList = document.querySelector('ul');
+      const myInput = document.createElement('input');
+
+      myInput.type = 'text';
+      document.body.appendChild(myInput);
+
+      myButton.addEventListener('click', () => {
+        let listItem = document.createElement('li');
+        listItem.textContent = myInput.value;
+        myList.appendChild(listItem);
+        myInput.value = '';
+      });
+    </script>
+  </body>
+</html>
+```
+
+Instructor: `Test the input by not adding any text and submit. This will add an empty string to the list. Ask the students/employees to add a conditional statement preventing empty inputs from being submitted`
+---
 
