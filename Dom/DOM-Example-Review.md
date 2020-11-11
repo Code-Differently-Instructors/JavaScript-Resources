@@ -64,7 +64,8 @@ The `document` keyword represents the object and the keyword/words after the per
 ```js
 document.getElementByID();
 document.getElementByClass();
-document.innerHTML ;
+document.getElementsByTagName();
+document.innerHTML;
 ```
 
 #### Junior Developer Demonstrates
