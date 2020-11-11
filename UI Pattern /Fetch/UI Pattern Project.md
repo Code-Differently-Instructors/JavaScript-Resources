@@ -17,16 +17,31 @@ Here you will combine the skills you have learned in JavaScript to build out use
 1. Create a new repository on GitHub called **UI Pattern Project**.
 2. Fulfill the listed requirements below.
 
+## Requirements
+
+You will pick one UI Pattern and one API to combine the two. The data to populate the UI Pattern should come from the API. When the user loads the page, they should see the data from the API load into the UI pattern on the screen. You will need to utilize the DOM for interactivity.
+
+## Technical Requirements
+
+Your project should meet the following requirements:
+
+- Your code runs without errors.
+- Shows the UI pattern you selected populated with data from the API you
+  selected
+- Includes a well written README.
+- Have a good and frequent commit history.
 
 ## UI Pattern
 
 Below you will find a few UI patterns that you will need to choose from as well as an API. After building your UI pattern, you'll then work with an API of your choosing.
+
+
 ![UI Gifs](https://media.git.generalassemb.ly/user/22658/files/7c16f100-21a9-11eb-9c94-a0fa75b34e3a)
 
 
 ### List of UI Patterns
 
-You may choose from the following list of UI patterns:
+You are **NOT REQUIRED** to copy the **EXAMPLES** below, they are just to show you what each UI pattern is, does and looks like. You may choose from the following list of UI patterns:
 
 #### Modal
 
@@ -73,28 +88,13 @@ Below you will find a list of APIs:
 1. Pokemon: http://pokeapi.co
 1. Google Books: developers.google.com/books
 1. City of Chicago: data.cityofchicago.org
-1. Beer: brewerydb.com/developers
+1. The Office: https://www.officeapi.dev/
 1. Chuck Norris: http://www.icndb.com
 1. Rick and Morty: rickandmortyapi.com/documentation/#rest
 1. Dad Jokes: icanhazdadjoke.com/api
 1. NASA: api.nasa.gov
 
-There is also
-[this collection of public APIs](https://github.com/public-apis/public-apis).
-
-## Requirements
-
-You will pick one UI Pattern and one API to combine the two. The data to populate the UI Pattern should come from the API. When the user loads the page, they should see the data from the API load into the UI pattern on the screen. You will need to utilize the DOM for interactivity.
-
-## Technical Requirements
-
-Your project should meet the following requirements:
-
-- Your code runs without errors.
-- Shows the UI pattern you selected populated with data from the API you
-  selected
-- Includes a well written README.
-- Have a good and frequent commit history.
+There is also [this collection of public APIs](https://github.com/public-apis/public-apis).
 
 ## Submission
 You will need to submit an issue with a link to your repo.
