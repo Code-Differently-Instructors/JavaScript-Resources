@@ -20,6 +20,7 @@
 ### Prerequisites
 
 - JavaScript Fundamentals
+- Fetch Fundamentals
 
 ### About
 
@@ -34,30 +35,43 @@ Since the start of the program you have learned how to build your own websites, 
 
 You are to make a basic webpage and will generate information from a third party database/API. Your webpage must include a search and submit form with an ordered/unordered list to show results. For this particular lab you will have the opportunity to utilize any API of your choosing, choosing from this [list](https://github.com/public-apis/public-apis). Be sure to look over the API **DOCS** or documentation, which is given to provide instructions on how to utilize the site's API.
 
-#### Example
+#### Part 1: API Utilization
 
-Please see below on the implementation of fetch. You can see that the [Pokemon API](https://pokeapi.co/) is being used in this example, generating the API's data.
+You are to create a `index.html, style.css, script.js` files.
+First, use `fetch()` to make a GET request to the API and console log the
+response object.Things to make sure of:
 
-**Example of using fetch**
+- Navigate to the documentation of the API you chose and read
+  through the documentation.
+- In `script.js`, use `fetch()` and to make a GET
+  request and console log the response object.
+  
+Finally, depending on the API you choose, some will require you to request and use an API
+key. The key will go in a fetch object called headers. Check out the
+[fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+to learn more about this!
 
-```js
-const url = "https://pokeapi.co/api/v2/pokemon/";
+You will need to give your fetch function a second parameter called `headers`,
+which will be an object that takes the key:value pair
+`'x-api-key': 'INSERT YOUR API KEY HERE'`. It will look something like this:
 
-// fetch takes a url, and an object with a few optional parameters.
-// Ex: {method: 'POST', headers: {'Content-Type': 'application/json'}}
-// The default method of fetch is a GET request
-// For now all we have to pass fetch is the url
-fetch(url)
-  .then((res) => {
-    console.log("success!", res);
-  })
-  .catch((err) => {
-    console.log("something went wrong...", err);
-  });
+```
+fetch('www.randomURL.com', {
+    headers: {
+        'x-api-key': 'INSERT YOUR API KEY HERE'
+    }
+})
 ```
 
-**Results**
-<img width="1410" alt="Screen Shot 2020-09-25 at 12 21 10 AM" src="https://user-images.githubusercontent.com/54545904/94233659-3abad280-fed6-11ea-82e6-6e0c2d6a7f57.png">
+#### Part 2: DOM Utilization
+Finally you will utilize the DOM to generate the data from your API on to the webpage you created.
+
+- Create a button that, when clicked, displays the data generated from the API.
+
+- Create another button that randomly shuffles the data generated from the API.
+
+- Minimal styling for the page is required utilizing the DOM. 
+
 
 ## Additional Resources
 
